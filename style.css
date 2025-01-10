@@ -1,8 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: "Fira Sans", serif;
 }
+
+/* Primary Css */
+.primary_btn {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(0, 106, 80);
+    color: #ffffff;
+}
+header {
+    display: flex;
+    justify-content: center;
+}
+.header_container {
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.header_btn {
+    padding: 10px 15px;
+    color: rgb(0, 106, 80);
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 5px;
+}
+
+/* Navber Section End */
+#hero_section{
+    display: flex;
+    justify-content: center;
+}
+.hero_container {
+    width: 1180px;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(198, 228, 214); */
+}
+
+.hero_inner {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+img.hero_img {
+    width: 374px;
+}
+
+.hero_inner {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(198, 228, 214);
+    border-radius: 20px;
+    padding: 50px 50px;
+    align-items: center;
+}
+
+h2.hero_title {
+    font-size: 50px;
+    margin: 0px 0px 18px 0px;
+}
+
+p.hero_subtitle {
+    color: rgba(14, 14, 14, 0.5);
+}
+
+button.primary_btn {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(0, 106, 80);
+    color: #ffffff;
+}
+
+/* Hero Section end */
