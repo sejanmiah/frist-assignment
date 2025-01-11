@@ -127,6 +127,8 @@ p.feature_paragraph {
     padding: 20px;
     border-radius: 15px;
     background-color: #ffffff;
+    height: 181px;
+    width: 240px;
 }
 
 .feature_section {
@@ -264,6 +266,10 @@ p.testo_description {
     margin-bottom: 20px;
 }
 
+p.testo_subtitle {
+    color: rgba(14, 14, 14, 0.7);
+}
+
 /* Testomonial Section End */
 
 #news {
@@ -301,7 +307,14 @@ img.news_content_image {
 }
 
 p.news_paragraph {
-    padding: 15px 0 20px;
+    padding: 15px 0px 20px;
+    color: rgba(14, 14, 14, 0.7);
+}
+span.news_date {
+    color: rgba(14, 14, 14, 0.7);
+}
+span.news_time {
+    color: rgba(14, 14, 14, 0.7);
 }
 button.news_button {
     padding: 10px 15px;
@@ -373,7 +386,9 @@ input[type="button"] {
     margin: 0 auto;
     margin-top: 20px;
 }
-
+p.description {
+    color: rgba(14, 14, 14, 0.7);
+}
 form.donate_form {
     display: flex;
     flex-direction: column;
@@ -486,6 +501,7 @@ section#footer {
     gap: 10px;
     align-items: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 hr {
