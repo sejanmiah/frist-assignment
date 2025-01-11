@@ -458,7 +458,7 @@ input.subs_button {
     color: #ffffff;
     background-color: rgb(0, 106, 80);
     border-radius: 0px 10px 10px 0px;
-    border: 1px solid white;
+    border: 1px solid rgb(0 107 78);
     transition: .5s;
     cursor: pointer;
 }
